@@ -1,0 +1,55 @@
+.pricing {
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  height: 500px;
+  background: #1c2a4e;
+  padding: 1rem 8rem;
+  padding-top: 25rem;
+  position: relative;
+}
+
+.qna > p {
+  margin: 0;
+}
+
+.card {
+  height: 27rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  left: 25rem;
+  z-index: 1;
+}
+
+.card2 {
+  height: 23rem;
+  width: 20rem;
+  position: absolute;
+  top: 2.3rem;
+  left: 45rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardContainer {
+  top: -7rem;
+  left: 0;
+  width: 100%;
+  height: 35rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  padding-bottom: 3rem;
+}

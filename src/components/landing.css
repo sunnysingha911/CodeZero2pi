@@ -1,0 +1,57 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.brnadName {
+  color: #335eea;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navigation {
+  display: flex;
+
+  font-weight: 600;
+}
+
+.navigation > li {
+  margin: 0rem 1rem;
+  list-style-type: none;
+}
+
+.nav {
+  color: #64779c;
+  text-decoration: none;
+}
+
+button {
+  background: #335eea;
+  color: #fff;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.head {
+  font-weight: 400;
+  font-size: 42px;
+  margin: 0;
+}
+
+.main {
+  margin: 0rem 8rem;
+}
+
+.cover {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.p {
+  color: #92a5bf;
+  font-size: 18px;
+}

@@ -1,0 +1,28 @@
+.footer {
+  padding: 0rem 4rem;
+  background: #f1f4f8;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item > ul {
+  font-size: 16px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.grid-item > ul > li {
+  padding: 0.5rem;
+  color: #98a9c2;
+}
